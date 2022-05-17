@@ -1,4 +1,25 @@
-body {
+* {
+  background-color: darkblue;
+  color: yellow;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.myInfo {
+  margin: auto;
+  background-color: azure;
+}
+
+.outer {
+  border: solid;
+  border-color: beige;
+  padding: inherit;
+  background-color: azure;
+  margin-right: auto;
+}
+
+
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +31,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
