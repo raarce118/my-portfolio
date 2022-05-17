@@ -1,18 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import About from './components/About';
+import Header from './components/Header';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
+const [currentPage, setCurrentPage] = useState('About')
+
   return (
-<div className = "container">
-  <div className="logo">Logo</div>
-  <div className="header">header</div>
-  <div className="nav">nav</div>
-  <div className="content">content</div>
-  <div className="footer">footer</div>
+
+<div className = "App">
+
+<main>
+  <Header currentPage={currentPage} setCurrentPage={setCurrentPage}></Header>
+  {currentPage === 'About' ? <About></About> : ''}
+  {currentPage === 'Portfolio' ? <Portfolio></Portfolio> : ''}
+  {currentPage === 'Resume' ? <Resume></Resume> : ''}
+  {currentPage === 'Contact' ? <Contact></Contact> : ''}
+  <Footer></Footer>
+</main>
+
 
 </div>
   );
 }
 
 export default App;
+
