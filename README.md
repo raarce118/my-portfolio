@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Using React, I was able to build a portfolio hilighting previous projects I was able to either create, or assist in creating.
+
 ## Available Scripts
 
 In the project directory, you can run:
