@@ -19,7 +19,7 @@ function Portfolio() {
             name: 'Password-gen',
             link: 'https://raarce118.github.io/Password-Generator/',
             img: '/images/Password-gen.png'
-        }
+        },
     ];
 
     return(

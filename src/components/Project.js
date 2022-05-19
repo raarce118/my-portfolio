@@ -4,10 +4,10 @@ import Card from 'react-bootstrap/Card';
 function Project(props) {
     return (
 
-       <Card className= 'cards'>
-           <Card.img variant="top" className='projectPic' src ={process.env.PUBLIC_URL + props.projectArr.img} />
+       <Card className= 'Cards'>
+           <Card.Img variant="top" className='projectPic' src ={process.env.PUBLIC_URL + props.projectArr.img} />
 
-           <Card.Body className='cards'>
+           <Card.Body className='Cards'>
                <Card.Title className='proj-name'><h3>{props.projectArr.name}</h3></Card.Title>
 
                <Card.Text>
