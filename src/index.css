@@ -1,12 +1,13 @@
 * {
-  background-color: darkblue;
-  color: yellow;
+  background-color: rgb(2, 2, 26);
+  color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .myInfo {
   margin: auto;
   background-color: azure;
+  color: black;
 }
 
 .outer {
@@ -15,6 +16,55 @@
   padding: inherit;
   background-color: azure;
   margin-right: auto;
+}
+
+
+.name-header {
+  font-size: 20px;
+  margin-left: 45px;
+  font-weight: bolder;
+  color: white;
+  
+}
+
+.last-header {
+
+  color: white;
+  font-weight: bolder;
+}
+
+.nav-tab {
+
+  font-size: large;
+  width: 100px;
+  white-space: nowrap;
+}
+
+.nav-tab :hover {
+  color: white;
+}
+
+.nav-1tab, .nav-2tab, .nav-3tab, .nav-4tab {
+  margin-right: 10px;
+}
+
+nav a:active {
+  color: white;
+}
+
+.navActive {
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+.phone, .email, .github {
+  float: right;
+  margin-left: 10px;
 }
 
 
