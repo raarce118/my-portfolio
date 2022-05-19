@@ -5,16 +5,16 @@
 }
 
 .myInfo {
-  margin: auto;
-  background-color: azure;
-  color: black;
+  margin: 100px;
+  background-color: rgb(2, 2, 26);
+  color: white;
 }
 
 .outer {
   border: solid;
-  border-color: beige;
+  border-color: rgb(2, 2, 26);
   padding: inherit;
-  background-color: azure;
+  background-color: rgb(2, 2, 26);
   margin-right: auto;
 }
 
@@ -58,7 +58,8 @@ nav a:active {
 
 .footer {
   text-align: center;
-  margin: auto;
+  float: right;
+  margin: 500px 1000px;
   color: white;
 }
 
